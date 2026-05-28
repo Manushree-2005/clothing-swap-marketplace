@@ -1,0 +1,207 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "manu",
+      "email": "manuhl2992@gmail.com",
+      "password": "$2b$10$lFuz7hc99CWQPcHZiRyZ..9zI1rb/7ZdzeEcQXHGBX.qF4bCI1X6O",
+      "city": "newyork",
+      "lat": 0,
+      "lng": 0,
+      "isAdmin": false,
+      "ratings": [],
+      "wishlist": []
+    },
+    {
+      "id": 2,
+      "username": "manu",
+      "email": "kirankp9741@gmail.com",
+      "password": "$2b$10$ZaWpV.QLky2UP3pWQYAdce0Gh84y/T/sFtLuWIVHwLj5MtcaXPtMe",
+      "city": "new york",
+      "lat": 0,
+      "lng": 0,
+      "isAdmin": false,
+      "ratings": [],
+      "wishlist": []
+    }
+  ],
+  "listings": [
+    {
+      "id": 1,
+      "userId": 1,
+      "images": [
+        "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=300"
+      ],
+      "category": "Pants",
+      "brand": "Levi's",
+      "size": "32",
+      "condition": "Like new",
+      "estimatedValue": 45,
+      "description": "Levi's Pants in Like new condition.",
+      "location": {
+        "city": "Unknown",
+        "lat": 0,
+        "lng": 0
+      },
+      "status": "available"
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "images": [
+        "https://images.unsplash.com/photo-1581655353564-df123a1eb820?w=300"
+      ],
+      "category": "Shirt",
+      "brand": "Nike",
+      "size": "M",
+      "condition": "Gently used",
+      "estimatedValue": 35,
+      "description": "Nike Shirt in Gently used condition.",
+      "location": {
+        "city": "Unknown",
+        "lat": 0,
+        "lng": 0
+      },
+      "status": "available"
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "images": [
+        "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=300"
+      ],
+      "category": "Dress",
+      "brand": "Zara",
+      "size": "S",
+      "condition": "New with tags",
+      "estimatedValue": 55,
+      "description": "Zara Dress in New with tags condition.",
+      "location": {
+        "city": "Unknown",
+        "lat": 0,
+        "lng": 0
+      },
+      "status": "available"
+    },
+    {
+      "id": 4,
+      "userId": 1,
+      "images": [
+        "https://images.unsplash.com/photo-1539533018447-63fcce2678e3?w=300"
+      ],
+      "category": "Jacket",
+      "brand": "The North Face",
+      "size": "L",
+      "condition": "Like new",
+      "estimatedValue": 80,
+      "description": "The North Face Jacket in Like new condition.",
+      "location": {
+        "city": "Unknown",
+        "lat": 0,
+        "lng": 0
+      },
+      "status": "available"
+    },
+    {
+      "id": 5,
+      "userId": 1,
+      "images": [
+        "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=300"
+      ],
+      "category": "Shoes",
+      "brand": "Adidas",
+      "size": "9",
+      "condition": "Gently used",
+      "estimatedValue": 40,
+      "description": "Adidas Shoes in Gently used condition.",
+      "location": {
+        "city": "Unknown",
+        "lat": 0,
+        "lng": 0
+      },
+      "status": "available"
+    },
+    {
+      "id": 6,
+      "userId": 1,
+      "images": [
+        "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=300"
+      ],
+      "category": "Accessories",
+      "brand": "Gucci",
+      "size": "One",
+      "condition": "Like new",
+      "estimatedValue": 120,
+      "description": "Gucci Accessories in Like new condition.",
+      "location": {
+        "city": "Unknown",
+        "lat": 0,
+        "lng": 0
+      },
+      "status": "available"
+    },
+    {
+      "id": 7,
+      "userId": 1,
+      "images": [
+        "https://images.unsplash.com/photo-1586363104863-3f5e5eb0879e?w=300"
+      ],
+      "category": "Shirt",
+      "brand": "H&M",
+      "size": "L",
+      "condition": "Like new",
+      "estimatedValue": 20,
+      "description": "H&M Shirt in Like new condition.",
+      "location": {
+        "city": "Unknown",
+        "lat": 0,
+        "lng": 0
+      },
+      "status": "available"
+    },
+    {
+      "id": 8,
+      "userId": 1,
+      "images": [
+        "https://images.unsplash.com/photo-1600185365926-3a2ce3cdb9eb?w=300"
+      ],
+      "category": "Shoes",
+      "brand": "Puma",
+      "size": "10",
+      "condition": "New with tags",
+      "estimatedValue": 50,
+      "description": "Puma Shoes in New with tags condition.",
+      "location": {
+        "city": "Unknown",
+        "lat": 0,
+        "lng": 0
+      },
+      "status": "available"
+    },
+    {
+      "id": 9,
+      "userId": 2,
+      "images": [
+        "https://picsum.photos/300/200?random=1779955279927"
+      ],
+      "category": "Jacket",
+      "brand": "Zara",
+      "size": "L",
+      "condition": "Gently used",
+      "estimatedValue": 67,
+      "description": "",
+      "location": {
+        "city": "Unknown",
+        "lat": 0,
+        "lng": 0
+      },
+      "status": "available"
+    }
+  ],
+  "swaps": [],
+  "posts": [],
+  "nextUserId": 3,
+  "nextListingId": 10,
+  "nextSwapId": 1,
+  "nextPostId": 1
+}
